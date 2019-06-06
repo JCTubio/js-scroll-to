@@ -1,6 +1,6 @@
 {
   "name": "js-scroll-to",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A pure JS solution for scrolling to a specified element on command",
   "main": "index.js",
   "dependencies": {
