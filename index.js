@@ -1,7 +1,7 @@
 function scrollTo({
 	elementId,
-    Xoffset = 0,
-    Yoffset = 0,
+    xOffset = 0,
+    yOffset = 0,
     behavior = 'smooth',
     axis = 'none'
 }){
@@ -19,18 +19,18 @@ function scrollTo({
             switch (normalizedAxis) {
                 case 'x':
                     window.scrollTo({
-                        left: elementXPositionRelativeToBody - Xoffset,
+                        left: elementXPositionRelativeToBody - xOffset,
                         behavior
                     });
                 case 'y':
                     window.scrollTo({
-                        top: elementYPositionRelativeToBody - Yoffset,
+                        top: elementYPositionRelativeToBody - yOffset,
                         behavior
                     });
                 case 'both':
                     window.scrollTo({
-                        top: elementYPositionRelativeToBody - Yoffset,
-                        left: elementXPositionRelativeToBody - Xoffset,
+                        top: elementYPositionRelativeToBody - yOffset,
+                        left: elementXPositionRelativeToBody - xOffset,
                         behavior
                     });
                 default:
