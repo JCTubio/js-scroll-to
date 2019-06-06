@@ -42,3 +42,7 @@ scrollTo({
   axis: 'y'
 })
 ```
+
+# License
+
+  [MIT](LICENSE)
