@@ -1,0 +1,15 @@
+{
+  "name": "js-scroll-to",
+  "version": "1.0.0",
+  "description": "A pure JS solution for scrolling to a specified element on command",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^6.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jctubio",
+  "license": "MIT"
+}
